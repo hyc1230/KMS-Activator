@@ -64,4 +64,19 @@
 [32位直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-activation-v3.1-Build 2205_64bit.exe)
 
 ---
-最近更新：2022/07/01 11:01
+### 源码下载
+
+#### v2.1
+
+[直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-Activator-Code-v2.1.zip)
+
+#### v3.0
+
+[直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-Activator-Code-v3.0.zip)
+
+#### v3.1
+
+[直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-Activator-Code-v3.1.zip)
+
+---
+最近更新：2022/07/01 11:32
