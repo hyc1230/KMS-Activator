@@ -1,5 +1,7 @@
 # Windows KMS 激活工具
 
+[GitHub 项目地址，喜欢就给个star吧](https://github.com/hyc1230/KMS-Activator)
+
 [作者QQ](tencent://message?uin=191039275)
 
 ---
