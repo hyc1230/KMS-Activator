@@ -61,7 +61,7 @@
 
 [64位直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-activation-v3.1-Build 2205_64bit.exe)
 
-[32位直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-activation-v3.1-Build 2205_64bit.exe)
+[32位直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-activation-v3.1-Build 2205_32bit.exe)
 
 ---
 ### 源码下载
