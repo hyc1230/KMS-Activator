@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+# Windows KMS 激活工具
 
-You can use the [editor on GitHub](https://github.com/hyc1230/KMS-Activator/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+[作者QQ](tencent://message?uin=191039275)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+---
+### 介绍
 
-### Markdown
+Heyc KMS 激活工具可以使用密钥管理服务(Key Managment Service)激活 Windows 7/8/8.1/10/11 专业/专业工作站/专业教育/企业/教育/LTSC(v2.1及以上)/LTSB(v2.1及以上) 版，并可以自动识别系统(v3.0及以上)，实现真正的一键式激活，懒人必备！
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+---
+### 图片
 
-```markdown
-Syntax highlighted code block
+#### v1.0
 
-# Header 1
-## Header 2
-### Header 3
+![1.0](https://user-images.githubusercontent.com/107044023/176808423-258029e1-ac5e-49b7-b97d-a3fe472d9c1c.png)
 
-- Bulleted
-- List
+#### v2.0
 
-1. Numbered
-2. List
+![2.0](https://user-images.githubusercontent.com/107044023/176808681-e510c7bb-0bf9-441f-8012-0d1c8e5a26e9.png)
 
-**Bold** and _Italic_ and `Code` text
+#### v2.1
 
-[Link](url) and ![Image](src)
-```
+![2.1](https://user-images.githubusercontent.com/107044023/176808846-fd1c2c11-ae50-47dc-803c-34156a6e9e86.png)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+#### v3.0
 
-### Jekyll Themes
+![3.0](https://user-images.githubusercontent.com/107044023/176809141-45e1a9d6-e265-4a56-ab9a-51ea95b06189.png)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hyc1230/KMS-Activator/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### v3.1
 
-### Support or Contact
+![3.1](https://user-images.githubusercontent.com/107044023/176809273-303f86c1-06a9-445d-89a7-f062018fb714.png)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+---
+### 下载链接
+
+暂无
+
+---
+最近更新：2022/07/01 10:18
