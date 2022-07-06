@@ -43,25 +43,39 @@
 
 [直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-activation-v1.0-Build 2201.exe)
 
+[阿里云盘分流](https://www.aliyundrive.com/s/a1SGev5D6Je)
+
 #### v2.0
 
 [直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-activation-v2.0-Build 2202.exe)
+
+[阿里云盘分流](https://www.aliyundrive.com/s/PVcnZZTTFjA)
 
 #### v2.1
 
 [直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-activation-v2.1-Build 2203.exe)
 
+[阿里云盘分流](https://www.aliyundrive.com/s/6EBMwqjAju9)
+
 #### v3.0
 
 [64位直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-activation-v3.0-Build 2204_64bit.exe)
 
+[64位阿里云盘分流](https://www.aliyundrive.com/s/sp9PabENHSs)
+
 [32位直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-activation-v3.0-Build 2204_32bit.exe)
+
+[32位阿里云盘分流](https://www.aliyundrive.com/s/tu4EapruBxj)
 
 #### v3.1
 
 [64位直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-activation-v3.1-Build 2205_64bit.exe)
 
+[64位阿里云盘分流](https://www.aliyundrive.com/s/GC71oXujr8d)
+
 [32位直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-activation-v3.1-Build 2205_32bit.exe)
+
+[32位阿里云盘分流](https://www.aliyundrive.com/s/oW6VqUXdbhG)
 
 ---
 ### 源码下载
@@ -79,4 +93,4 @@
 [直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-Activator-Code-v3.1.zip)
 
 ---
-最近更新：2022/07/01 11:32
+最近更新：2022/07/06 19:02
