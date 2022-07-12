@@ -4,7 +4,7 @@
 
 [作者QQ](tencent://message?uin=191039275)
 
-[回主页](https://hyc1230.github.io/#开源项目)
+[回主页](https://hyc1230.github.io/)
 
 ---
 ### 介绍
