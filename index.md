@@ -36,6 +36,40 @@
 
 ![3.1](https://user-images.githubusercontent.com/107044023/176809273-303f86c1-06a9-445d-89a7-f062018fb714.png)
 
+#### v3.2
+
+![](https://user-images.githubusercontent.com/107044023/178847963-06143263-1a87-49a6-b455-913c17f7730a.png)
+
+---
+
+### 更新日志
+
+本页仅显示更新内容，更为详细的更新日志请到[GitHub仓库README](https://github.com/hyc1230/KMS-Activator/blob/main/README.md#更新日志)查看。
+
+#### v1.0|Build2201 2022/03/04
+
+更新内容：第一个版本
+
+#### v2.0|Build2202 2022/03/07
+
+更新内容：快捷键、作者联系QQ、自行输入密钥
+
+#### v2.1|Build2203 2022/03/28
+
+更新内容：LTSC/LTSB激活密钥
+
+#### v3.0|Build2204 2022/05/16
+
+更新内容：**[重磅]自动识别系统**（仅支持非LTSC/LTSB版）
+
+#### v3.1|Build2205 2022/06/15
+
+更新内容：删除N/G/E版系统激活密钥
+
+#### v3.2|Build2206 2022/07/14
+
+更新内容：**[重磅]自动识别系统**（所有版本均支持）
+
 ---
 ### 软件下载
 
@@ -77,6 +111,16 @@
 
 [32位阿里云盘分流](https://www.aliyundrive.com/s/oW6VqUXdbhG)
 
+#### v3.2
+
+[64位直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-activation-v3.2-Build 2205_64bit.exe)
+
+[64位阿里云盘分流](https://www.aliyundrive.com/s/WK2r3qh3UCu)
+
+[32位直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-activation-v3.2-Build 2205_32bit.exe)
+
+[32位阿里云盘分流](https://www.aliyundrive.com/s/3SZkANp1eqt)
+
 ---
 ### 源码下载
 
@@ -91,6 +135,10 @@
 #### v3.1
 
 [直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-Activator-Code-v3.1.zip)
+
+#### v3.2
+
+[直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-Activator-Code-v3.2.zip)
 
 ---
 最近更新：2022/07/06 19:02
