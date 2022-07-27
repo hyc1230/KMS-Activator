@@ -113,11 +113,11 @@
 
 #### v3. 2
 
-[64位直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-activation-v3.2-Build 2205_64bit.exe)
+[64位直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-activation-v3.2-Build 2206_64bit.exe)
 
 [64位阿里云盘分流](https://www.aliyundrive.com/s/WK2r3qh3UCu)
 
-[32位直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-activation-v3.2-Build 2205_32bit.exe)
+[32位直链](https://github.com/hyc1230/KMS-Activator/raw/main/KMS-activation-v3.2-Build 2206_32bit.exe)
 
 [32位阿里云盘分流](https://www.aliyundrive.com/s/3SZkANp1eqt)
 
