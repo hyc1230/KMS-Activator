@@ -4,7 +4,7 @@
 
 [作者QQ](tencent://message?uin=191039275)
 
-[回主页](https://hyc1230.github.io/)
+[回主页](/)
 
 ---
 ### 介绍
@@ -38,7 +38,7 @@
 
 #### v3. 2
 
-![](https://user-images.githubusercontent.com/107044023/178847963-06143263-1a87-49a6-b455-913c17f7730a.png)
+![3.2](https://user-images.githubusercontent.com/107044023/178847963-06143263-1a87-49a6-b455-913c17f7730a.png)
 
 ---
 
