@@ -20,6 +20,10 @@
 
 ![1.0](https://user-images.githubusercontent.com/107044023/176808423-258029e1-ac5e-49b7-b97d-a3fe472d9c1c.png)
 
+#### v2. 0
+
+![2.0](https://user-images.githubusercontent.com/107044023/176808681-e510c7bb-0bf9-441f-8012-0d1c8e5a26e9.png)
+
 ---
 
 ### 更新日志
@@ -30,12 +34,20 @@
 
 更新内容：第一个版本
 
+#### v2. 0 | Build 2202 2022/03/07
+
+更新内容：快捷键、作者联系QQ、自行输入密钥
+
 ---
 ### 软件下载
 
 #### v1. 0
 
 [阿里云盘下载](https://www.aliyundrive.com/s/a1SGev5D6Je)
+
+#### v2. 0
+
+[阿里云盘下载](https://www.aliyundrive.com/s/PVcnZZTTFjA)
 
 ---
 最近更新：2022/07/14 06:57
