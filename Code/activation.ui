@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Windows KMS 激活工具 v3.0 - By HeYC</string>
+   <string>Windows KMS 激活工具 v3.1 - By HeYC</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="kms_server_label">
@@ -84,27 +84,7 @@ font: 20pt;</string>
     </item>
     <item>
      <property name="text">
-      <string>Windows 7 专业版 N</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Windows 7 专业版 E</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
       <string>Windows 7 企业版</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Windows 7 企业版 N</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Windows 7 企业版 E</string>
      </property>
     </item>
     <item>
@@ -114,17 +94,7 @@ font: 20pt;</string>
     </item>
     <item>
      <property name="text">
-      <string>Windows 8 专业版 N</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
       <string>Windows 8 企业版</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Windows 8 企业版 N</string>
      </property>
     </item>
     <item>
@@ -134,17 +104,7 @@ font: 20pt;</string>
     </item>
     <item>
      <property name="text">
-      <string>Windows 8.1 专业版 N</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
       <string>Windows 8.1 企业版</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Windows 8.1 企业版 N</string>
      </property>
     </item>
     <item>
@@ -154,17 +114,7 @@ font: 20pt;</string>
     </item>
     <item>
      <property name="text">
-      <string>Windows 10/11 专业版 N</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
       <string>Windows 10/11 专业工作站版</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Windows 10/11 专业工作站版 N</string>
      </property>
     </item>
     <item>
@@ -174,17 +124,7 @@ font: 20pt;</string>
     </item>
     <item>
      <property name="text">
-      <string>Windows 10/11 专业教育版 N</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
       <string>Windows 10/11 教育版</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Windows 10/11 教育版 N</string>
      </property>
     </item>
     <item>
@@ -194,27 +134,7 @@ font: 20pt;</string>
     </item>
     <item>
      <property name="text">
-      <string>Windows 10/11 企业版 N</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Windows 10/11 企业版 G</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Windows 10/11 企业版 G N</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
       <string>Windows 10 企业版 LTSB 2015</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Windows 10 企业版 N LTSB 2015</string>
      </property>
     </item>
     <item>
@@ -224,17 +144,7 @@ font: 20pt;</string>
     </item>
     <item>
      <property name="text">
-      <string>Windows 10 企业版 N LTSB 2016</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
       <string>Windows 10 企业版 LTSC 2019/2021</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Windows 10 企业版 N LTSC 2019/2021</string>
      </property>
     </item>
    </widget>

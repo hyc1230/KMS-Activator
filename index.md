@@ -32,6 +32,14 @@
 
 ![3.0](https://user-images.githubusercontent.com/107044023/176809141-45e1a9d6-e265-4a56-ab9a-51ea95b06189.png)
 
+#### v3. 1
+
+![3.1](https://user-images.githubusercontent.com/107044023/176809273-303f86c1-06a9-445d-89a7-f062018fb714.png)
+
+#### v3. 2
+
+![3.2](https://user-images.githubusercontent.com/107044023/178847963-06143263-1a87-49a6-b455-913c17f7730a.png)
+
 ---
 
 ### 更新日志
@@ -54,6 +62,14 @@
 
 更新内容：**[重磅]自动识别系统**（仅支持非LTSC/LTSB版）
 
+#### v3. 1 | Build 2205 2022/06/15
+
+更新内容：删除N/G/E版系统激活密钥
+
+#### v3. 2 | Build 2206 2022/07/14
+
+更新内容：**[重磅]自动识别系统**（所有版本均支持）
+
 ---
 ### 软件下载
 
@@ -74,6 +90,12 @@
 [64位阿里云盘下载](https://www.aliyundrive.com/s/sp9PabENHSs)
 
 [32位阿里云盘下载](https://www.aliyundrive.com/s/tu4EapruBxj)
+
+#### v3. 1
+
+[64位阿里云盘下载](https://www.aliyundrive.com/s/GC71oXujr8d)
+
+[32位阿里云盘下载](https://www.aliyundrive.com/s/oW6VqUXdbhG)
 
 ---
 最近更新：2022/07/14 06:57
