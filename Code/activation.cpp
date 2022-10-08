@@ -1,6 +1,9 @@
 ﻿#include "activation.h"
 #include "ui_activation.h"
 
+#include <QSettings>
+#include <QMessageBox>
+
 Activation::Activation(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::Activation)
@@ -16,9 +19,11 @@ Activation::~Activation()
 
 #include <cstdlib>
 #include <cctype>
+#include <string>
 #include <fstream>
 #include <Windows.h>
 #include <QMessageBox>
+using namespace std;
 
 QString keys[33] =
 {
@@ -57,6 +62,177 @@ QString keys[33] =
     "92NFX-8DJQP-P6BBQ-THF9C-7CG2H"
 };
 
+struct OS
+{
+    const int _10 = 1, _8_1 = 2, _8 = 4, _7 = 8;
+    const int Pro = 1, Enterprise = 2, Education = 4, Workstation = 8;
+    const int N = 1, G = 2, E = 4;
+    string str;
+    int sys = 0, ver = 0, ver2 = 0;
+    OS(){};
+    OS(string system)
+    {
+        str = system;
+
+        if (system.find("10") != system.npos || system.find("11") != system.npos)
+            sys += _10;
+        if (system.find("8.1") != system.npos)
+            sys += _8_1;
+        if (system.find("8") != system.npos)
+            sys += _8;
+        if (system.find("7") != system.npos)
+            sys += _7;
+
+        if (system.find("Pro") != system.npos)
+            ver += Pro;
+        if (system.find("Enterprise") != system.npos)
+            ver += Enterprise;
+        if (system.find("Education") != system.npos)
+            ver += Education;
+        if (system.find("Workstations") != system.npos)
+            ver += Workstation;
+
+        if (system.find(" N") != system.npos)
+            ver2 += N;
+        if (system.find(" G") != system.npos)
+            ver2 += G;
+        if (system.find(" E") != system.npos)
+            ver2 += E;
+    }
+};
+
+QString Activation::getkey()
+{
+    if (ui->windows_check->isChecked())
+        return keys[ui->windows->currentIndex()];
+    else
+        return ui->input->text();
+}
+
+int getindex(OS x)
+{
+    if (x.sys / x._10 % 2 == 1)//10or11
+    {
+        if (x.ver / x.Pro % 2 == 1)//专业
+        {
+            if (x.ver / x.Workstation % 2 == 1)//专业工作站版
+            {
+                if (x.ver2 / x.N % 2 == 1)//N版
+                    return 18;
+                //普通版
+                return 17;
+            }
+            if (x.ver / x.Education % 2 == 1)//专业教育版
+            {
+                if (x.ver2 / x.N % 2 == 1)//N版
+                    return 20;
+                //普通版
+                return 19;
+            }
+            //专业版
+            if (x.ver2 / x.N % 2 == 1)//N版
+                return 16;
+            //普通版
+            return 15;
+        }
+        if (x.ver / x.Education % 2 == 1)//教育版 注意:必存在E
+        {
+            if (x.ver2 / x.N % 2 == 1)//N版
+                return 22;
+            //普通版
+            return 21;
+        }
+        if (x.ver / x.Enterprise % 2 == 1)//企业版 注意:必存在E
+        {
+            if (x.ver2 / x.N % 2 == 1)//N版
+                return 24;
+            if (x.ver2 / x.G % 2 == 1)//G版
+                return 25;
+            if (x.ver2 / x.N % 2 == 1 && x.ver2 / x.G % 2 == 1)//N G版
+                return 26;
+            //普通版
+            return 23;
+        }
+        return -1;
+    }
+    if (x.sys / x._8_1 % 2 == 1)//8.1
+    {
+        if (x.ver / x.Pro % 2 == 1)//专业
+        {
+            if (x.ver2 / x.N % 2 == 0)//N版
+                return 12;
+            //普通版
+            return 11;
+        }
+        if (x.ver / x.Enterprise % 2 == 1)//企业 注意:必存在E
+        {
+            if (x.ver2 / x.N % 2 == 0)//N版
+                return 14;
+            //普通版
+            return 13;
+        }
+        return -1;
+    }
+    if (x.sys / x._8 % 2 == 1)//8
+    {
+        if (x.ver / x.Pro % 2 == 1)//专业
+        {
+            if (x.ver2 / x.N % 2 == 0)//N版
+                return 8;
+            //普通版
+            return 7;
+        }
+        if (x.ver / x.Enterprise % 2 == 1)//企业 注意:必存在E
+        {
+            if (x.ver2 / x.N % 2 == 0)//N版
+                return 10;
+            //普通版
+            return 9;
+        }
+        return -1;
+    }
+    if (x.sys / x._7 % 2 == 1)//7
+    {
+        if (x.ver / x.Pro % 2 == 1)//专业
+        {
+            if (x.ver2 / x.N % 2 == 0)//N版
+                return 2;
+            if (x.ver2 / x.N % 2 == 0)//E版
+                return 3;
+            //普通版
+            return 1;
+        }
+        if (x.ver / x.Enterprise % 2 == 1)//企业 注意:必存在E
+        {
+            if (x.ver2 / x.N % 2 == 0)//N版
+                return 5;
+            if (x.str.find("Enterprize E") != x.str.npos)//E版
+                return 6;
+            //普通版
+            return 4;
+        }
+        return -1;
+    }
+    return -1;
+}
+
+void Activation::autosystem()
+{
+    QSettings setting("HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion", QSettings::NativeFormat);
+    QString ver = setting.value("ProductName").toString();
+    OS os(ver.toStdString());
+    int index = getindex(os);
+    QString word;
+    if (index == -1)
+        word = QString::fromStdWString(L"，请自行选择激活版本！");
+    else
+    {
+        ui->windows->setCurrentIndex(index);
+        word = QString::fromStdWString(L"，已经自动选择对应的系统选项");
+    }
+    QMessageBox::information(NULL, QString::fromStdWString(L"提示"), QString::fromStdWString(L"您的系统是") + ver + word, QMessageBox::Ok, QMessageBox::Ok);
+}
+
 bool chkkey(QString s)
 {
     if (s.size() != 29)
@@ -73,14 +249,6 @@ bool chkkey(QString s)
                 return false;
         }
     return true;
-}
-
-QString Activation::getkey()
-{
-    if (ui->windows_check->isChecked())
-        return keys[ui->windows->currentIndex()];
-    else
-        return ui->input->text();
 }
 
 void Activation::on_activate_clicked()
@@ -137,5 +305,5 @@ void Activation::on_contact_triggered()
 
 void Activation::on_about_triggered()
 {
-    QMessageBox::information(NULL, QString::fromStdWString(L"关于"), QString::fromStdWString(L"KMS-Activator\nBy HeYC\n版本：2.1/Build 2203"));
+    QMessageBox::information(NULL, QString::fromStdWString(L"关于"), QString::fromStdWString(L"KMS-Activator\nBy HeYC\n版本：3.0/Build 2204_64bit"));
 }

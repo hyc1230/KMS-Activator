@@ -15,9 +15,13 @@ public:
     Activation(QWidget *parent = nullptr);
     ~Activation();
 
-private slots:
+    void autosystem();
+
     QString getkey();
 
+    int checkOS();
+
+private slots:
     void on_activate_clicked();
 
     void on_windows_check_stateChanged(int arg1);
