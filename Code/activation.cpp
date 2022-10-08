@@ -25,6 +25,7 @@ Activation::~Activation()
 #include <QMessageBox>
 using namespace std;
 
+extern std::string path;
 QString keys[33] =
 {
     "",
@@ -212,7 +213,9 @@ void Activation::on_activate_clicked()
         std::ofstream out("activate.bat", std::ios::trunc);
         out << "@echo off\nslmgr.vbs /ipk " << getkey().toStdString() << "\nslmgr.vbs /skms " << ui->kms_server->text().toStdString() << "\nslmgr.vbs /ato\nalmgr.vbs /xpr\n";
         out.close();
-        ShellExecute(NULL, L"runas", L"activate.bat", NULL, NULL, SW_SHOWNORMAL);
+        HINSTANCE val = ShellExecute(NULL, L"runas", L"activate.bat", NULL, NULL, (ui->console->isChecked() ? SW_SHOWNORMAL : SW_HIDE));
+        if ((long long)(val) <= 32)
+            QMessageBox::critical(NULL, QString::fromStdWString(L"错误"), QString::fromStdWString(L"运行失败！"), QMessageBox::Ok, QMessageBox::Ok);
     }
 }
 
@@ -255,5 +258,15 @@ void Activation::on_contact_triggered()
 
 void Activation::on_about_triggered()
 {
-    QMessageBox::information(NULL, QString::fromStdWString(L"关于"), QString::fromStdWString(L"KMS-Activator\nBy HeYC\n版本：3.2/Build 2206_64bit"));
+    QMessageBox::information(NULL, QString::fromStdWString(L"关于"), QString::fromStdWString(L"KMS-Activator\nBy HeYC\n版本：3.3/Build 2207_64bit"));
+}
+
+void Activation::on_unactivate_triggered()
+{
+    std::ofstream out("unactivate.bat", std::ios::trunc);
+    out << "@echo off\nslmgr.vbs -upk\n";
+    out.close();
+    HINSTANCE val = ShellExecute(NULL, L"runas", L"unactivate.bat", NULL, NULL, (ui->console->isChecked() ? SW_SHOWNORMAL : SW_HIDE));
+    if ((long long)(val) <= 32)
+        QMessageBox::critical(NULL, QString::fromStdWString(L"错误"), QString::fromStdWString(L"运行失败！"), QMessageBox::Ok, QMessageBox::Ok);
 }

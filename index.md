@@ -40,6 +40,10 @@
 
 ![3.2](https://user-images.githubusercontent.com/107044023/178847963-06143263-1a87-49a6-b455-913c17f7730a.png)
 
+#### v3. 3
+
+![3.3](https://user-images.githubusercontent.com/107044023/194718169-98a6be9e-b39b-4a6b-b0d6-0ea4ae2520a8.png)
+
 ---
 
 ### 更新日志
@@ -69,6 +73,10 @@
 #### v3. 2 | Build 2206 2022/07/14
 
 更新内容：**[重磅]自动识别系统**（所有版本均支持）
+
+#### v3. 3 | Build 2207 1011/10/09
+
+更新内容：卸载激活密钥、选择性显示激活控制台
 
 ---
 ### 软件下载
@@ -103,5 +111,11 @@
 
 [32位阿里云盘下载](https://www.aliyundrive.com/s/3SZkANp1eqt)
 
+#### v3. 3
+
+[64位阿里云盘下载](https://www.aliyundrive.com/s/HJVrxZcskNG)
+
+[32位阿里云盘下载](https://www.aliyundrive.com/s/wKhnkNX8oNg)
+
 ---
-最近更新：2022/07/14 06:57
+最近更新：2022/10/09 00:44

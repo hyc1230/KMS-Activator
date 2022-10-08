@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Windows KMS 激活工具 v3.2 - By HeYC</string>
+   <string>Windows KMS 激活工具 v3.3 - By HeYC</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="kms_server_label">
@@ -212,23 +212,20 @@ font: 20pt;</string>
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;输入Windows KMS激活密钥&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QCheckBox" name="console">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>300</y>
-      <width>501</width>
-      <height>201</height>
+      <x>20</x>
+      <y>290</y>
+      <width>491</width>
+      <height>41</height>
      </rect>
     </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(255, 0, 0);</string>
-    </property>
     <property name="text">
-     <string>快捷键帮助：
-Alt+C 联系作者
-Ctrl+Enter 激活
-Esc 退出</string>
+     <string>显示激活控制台</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>
@@ -254,6 +251,7 @@ Esc 退出</string>
     </property>
     <addaction name="activate_bar"/>
     <addaction name="exit"/>
+    <addaction name="unactivate"/>
    </widget>
    <addaction name="options"/>
    <addaction name="help"/>
@@ -286,6 +284,11 @@ Esc 退出</string>
   <action name="about">
    <property name="text">
     <string>关于</string>
+   </property>
+  </action>
+  <action name="unactivate">
+   <property name="text">
+    <string>卸载激活密钥</string>
    </property>
   </action>
  </widget>

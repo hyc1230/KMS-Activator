@@ -36,6 +36,8 @@ private slots:
 
     void on_about_triggered();
 
+    void on_unactivate_triggered();
+
 private:
     Ui::Activation *ui;
 };
