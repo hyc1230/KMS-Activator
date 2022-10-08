@@ -65,7 +65,7 @@ QString keys[33] =
 struct OS
 {
     const int _10 = 1, _8_1 = 2, _8 = 4, _7 = 8;
-    const int Pro = 1, Enterprise = 2, Education = 4, Workstation = 8;
+    const int Pro = 1, Enterprise = 2, Education = 4, Workstation = 8, LTSC = 16, LTSB = 32;
     string str;
     int sys = 0, ver = 0;
     OS(){};
@@ -90,6 +90,10 @@ struct OS
             ver += Education;
         if (system.find("Workstations") != system.npos)
             ver += Workstation;
+        if (system.find("LTSC") != system.npos)
+            ver += LTSC;
+        if (system.find("LTSB") != system.npos)
+            ver += LTSB;
     }
 };
 
@@ -116,7 +120,23 @@ int getindex(OS x)
         if (x.ver / x.Education % 2 == 1)//教育
             return 10;
         if (x.ver / x.Enterprise % 2 == 1)//企业
+        {
+            if (x.ver / x.LTSC % 2 == 1)//LTSC
+            {
+                if (x.str.find("2019") != x.str.npos || x.str.find("2021") != x.str.npos)
+                    return 14;
+                return -1;
+            }
+            if (x.ver / x.LTSB % 2 == 1)
+            {
+                if (x.str.find("2015") != x.str.npos)
+                    return 12;
+                if (x.str.find("2016") != x.str.npos)
+                    return 13;
+                return -1;
+            }
             return 11;
+        }
         return -1;
     }
     if (x.sys / x._8_1 % 2 == 1)//8.1
@@ -235,5 +255,5 @@ void Activation::on_contact_triggered()
 
 void Activation::on_about_triggered()
 {
-    QMessageBox::information(NULL, QString::fromStdWString(L"关于"), QString::fromStdWString(L"KMS-Activator\nBy HeYC\n版本：3.1/Build 2205_64bit"));
+    QMessageBox::information(NULL, QString::fromStdWString(L"关于"), QString::fromStdWString(L"KMS-Activator\nBy HeYC\n版本：3.2/Build 2206_64bit"));
 }

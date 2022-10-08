@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Windows KMS 激活工具 v3.1 - By HeYC</string>
+   <string>Windows KMS 激活工具 v3.2 - By HeYC</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="kms_server_label">
