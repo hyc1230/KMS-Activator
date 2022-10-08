@@ -42,4 +42,4 @@ Windows KMS 激活工具，最新版本为v3.2，正在更新中。
 ---
 ## 报告 Bug
 
-报告 Bug 需发送邮件给<heyc-offical@outlook.com>，如核实无误，将会回复邮件；向改邮箱发送广告者，一律拉黑，后果自行承担。
+报告 Bug 需发送邮件给<heyc-offical@outlook.com>，如核实无误，将会回复邮件；向该邮箱发送广告者，一律拉黑，后果自行承担。
