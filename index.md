@@ -24,6 +24,10 @@
 
 ![2.0](https://user-images.githubusercontent.com/107044023/176808681-e510c7bb-0bf9-441f-8012-0d1c8e5a26e9.png)
 
+#### v2. 1
+
+![2.1](https://user-images.githubusercontent.com/107044023/176808846-fd1c2c11-ae50-47dc-803c-34156a6e9e86.png)
+
 ---
 
 ### 更新日志
@@ -38,6 +42,10 @@
 
 更新内容：快捷键、作者联系QQ、自行输入密钥
 
+#### v2. 1 | Build 2203 2022/03/28
+
+更新内容：LTSC/LTSB激活密钥
+
 ---
 ### 软件下载
 
@@ -48,6 +56,10 @@
 #### v2. 0
 
 [阿里云盘下载](https://www.aliyundrive.com/s/PVcnZZTTFjA)
+
+#### v2. 1
+
+[阿里云盘下载](https://www.aliyundrive.com/s/6EBMwqjAju9)
 
 ---
 最近更新：2022/07/14 06:57

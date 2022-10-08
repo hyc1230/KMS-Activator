@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Activation</class>
+ <widget class="QMainWindow" name="Activation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Windows KMS 激活工具 v2.1 - By HeYC</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="kms_server_label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>KMS服务器：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="title">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>781</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+font: 20pt;</string>
+    </property>
+    <property name="text">
+     <string>Windows KMS 激活工具</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="kms_server">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>110</y>
+      <width>451</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;输入KMS服务器地址&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="text">
+     <string>kms.03k.org</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="windows">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>170</y>
+      <width>451</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;选择要激活的Windows版本&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>请选择</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 7 专业版</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 7 专业版 N</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 7 专业版 E</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 7 企业版</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 7 企业版 N</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 7 企业版 E</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 8 专业版</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 8 专业版 N</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 8 企业版</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 8 企业版 N</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 8.1 专业版</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 8.1 专业版 N</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 8.1 企业版</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 8.1 企业版 N</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 10/11 专业版</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 10/11 专业版 N</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 10/11 专业工作站版</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 10/11 专业工作站版 N</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 10/11 专业教育版</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 10/11 专业教育版 N</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 10/11 教育版</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 10/11 教育版 N</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 10/11 企业版</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 10/11 企业版 N</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 10/11 企业版 G</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 10/11 企业版 G N</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 10 企业版 LTSB 2015</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 10 企业版 N LTSB 2015</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 10 企业版 LTSB 2016</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 10 企业版 N LTSB 2016</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 10 企业版 LTSC 2019/2021</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Windows 10 企业版 N LTSC 2019/2021</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="activate">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>370</y>
+      <width>241</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>激活</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>48</width>
+      <height>48</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="input_check">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>230</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>自行输入密钥</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="windows_check">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>170</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>使用默认密钥</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="input">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>230</y>
+      <width>451</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;输入Windows KMS激活密钥&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>300</y>
+      <width>501</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>快捷键帮助：
+Alt+C 联系作者
+Ctrl+Enter 激活
+Esc 退出</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="help">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="contact"/>
+    <addaction name="about"/>
+   </widget>
+   <widget class="QMenu" name="options">
+    <property name="title">
+     <string>操作</string>
+    </property>
+    <addaction name="activate_bar"/>
+    <addaction name="exit"/>
+   </widget>
+   <addaction name="options"/>
+   <addaction name="help"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="contact">
+   <property name="text">
+    <string>联系作者</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+C</string>
+   </property>
+  </action>
+  <action name="exit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="shortcut">
+    <string>Esc</string>
+   </property>
+  </action>
+  <action name="activate_bar">
+   <property name="text">
+    <string>激活</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Return</string>
+   </property>
+  </action>
+  <action name="about">
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>kms_server</tabstop>
+  <tabstop>windows_check</tabstop>
+  <tabstop>input_check</tabstop>
+  <tabstop>windows</tabstop>
+  <tabstop>input</tabstop>
+  <tabstop>activate</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
